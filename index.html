@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / Gizlilik Politikası — Ihya Vision (İhya Vizyon)</title>
+  <style>
+    :root {
+      --bg: #0d1111;
+      --card: #151c1c;
+      --border: #263834;
+      --text: #e8eceb;
+      --muted: #9fb0ad;
+      --accent: #d4a359;
+      --emerald: #2e6f5e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 28px 24px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.75rem;
+      color: var(--accent);
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 14px;
+      background: rgba(46, 111, 94, 0.25);
+      border: 1px solid var(--emerald);
+      border-radius: 999px;
+      color: #8ce0c9;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      margin-top: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      color: var(--accent);
+      font-size: 1.35rem;
+    }
+    h3 {
+      color: #b8e2d6;
+      margin-top: 22px;
+      margin-bottom: 8px;
+      font-size: 1.08rem;
+    }
+    p, li {
+      color: var(--text);
+      font-size: 0.98rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    code {
+      background: rgba(255, 255, 255, 0.07);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ihya Vision (İhya Vizyon)</h1>
+      <div class="meta">
+        Privacy Policy / Gizlilik Politikası<br>
+        Package ID: <code>org.ihya.seyirdefteri</code> &middot; Version: <strong>v2.2.0</strong> &middot; Effective: <strong>October 2026 (© 2024–2026)</strong><br>
+        Developer: <strong>Mehmet YARICI</strong>
+      </div>
+      <div class="badge">100% Offline &middot; Zero Data Collection &middot; Local Encrypted Storage</div>
+    </header>
+
+    <section id="en">
+      <h2>🇬🇧 English — Privacy Policy</h2>
+
+      <h3>1. Overview &amp; 100% Offline Architecture</h3>
+      <p>
+        <strong>Ihya Vision</strong> ("the App") is designed as a private, serene digital sanctuary (<em>Digital Dergâh</em>) for spiritual reflection, contemplation, and daily self-accounting (<em>Muhasabah</em>) inspired by Imam al-Ghazali’s <em>Ihyâ 'Ulûm al-Dîn</em>.
+      </p>
+      <ul>
+        <li><strong>100% Offline Operation:</strong> The App operates completely offline on your device. It does <strong>not</strong> request or use the Android <code>INTERNET</code> permission.</li>
+        <li><strong>Zero Data Transmission:</strong> No personal data, journal entries, voice recordings, search queries, or usage metrics are ever transmitted to any external server, cloud service, or third party.</li>
+      </ul>
+
+      <h3>2. Local Data Storage &amp; Security</h3>
+      <p>
+        All information you create or enter within the App—including daily self-accounting records, spiritual reflections, Daily Memories (<em>Hâl Defteri</em>), prayer tracking (<em>Farz Takibim</em>), supplication notes (<em>Sadaka Taşı</em>), and theme/language preferences—is stored <strong>exclusively on your local device</strong> in a local SQLite/SQLCipher database.
+      </p>
+      <ul>
+        <li><strong>Secret Lock (PIN Protection):</strong> You may optionally set a personal PIN (<em>Sır Kilidi</em>) within the App to restrict local access to your private reflections.</li>
+        <li><strong>Bilingual Offline Smart Guide:</strong> All questions asked in the <em>Ihyâ Smart Guide</em> are processed 100% locally on your device using deterministic offline indexing across the 40 books of the <em>Ihyâ</em>. No external AI APIs or cloud language models are used.</li>
+      </ul>
+
+      <h3>3. Device Permissions</h3>
+      <ul>
+        <li><strong>Microphone (<code>android.permission.RECORD_AUDIO</code>):</strong> Requested solely when you explicitly tap the microphone button to use optional voice-to-text dictation in journals or contemplation search. The App never records, stores, or transmits raw audio files to any external server.</li>
+        <li><strong>Wake Lock (<code>android.permission.WAKE_LOCK</code>):</strong> Used solely to keep the screen or audio narration active while you are actively reading or listening to passages.</li>
+      </ul>
+
+      <h3>4. Data Retention &amp; Instant Deletion</h3>
+      <p>You have complete and immediate control over all data stored on your device:</p>
+      <ul>
+        <li><strong>In-App Permanent Deletion:</strong> At any time, you can navigate to <strong>Settings &rarr; Delete All My Data</strong> (<em>Ayarlar &rarr; Tüm Verilerimi Sil</em>) and confirm deletion to permanently and irreversibly erase all local records, journals, and preferences.</li>
+        <li><strong>Uninstallation:</strong> Uninstalling the App from your device removes its local database directory.</li>
+      </ul>
+
+      <h3>5. No Ads, No Analytics, No Third-Party Trackers</h3>
+      <ul>
+        <li>Ihya Vision contains <strong>no</strong> advertising SDKs, <strong>no</strong> analytics or telemetry trackers, <strong>no</strong> user profiling, and <strong>no</strong> cloud account registration.</li>
+        <li>The App does not collect, share, or sell any personal or device data.</li>
+      </ul>
+
+      <h3>6. Children’s Privacy</h3>
+      <p>
+        Because the App does not collect, transmit, or store any personal data on external servers, no personal information from any user—including children—is ever collected by the developer.
+      </p>
+
+      <h3>7. Contact Information</h3>
+      <p>
+        If you have any questions regarding this Privacy Policy, please contact:<br>
+        <strong>Developer:</strong> Mehmet YARICI<br>
+        <strong>Package:</strong> <code>org.ihya.seyirdefteri</code><br>
+        <strong>GitHub:</strong> <a href="https://github.com/mehmetyarici-crypto" style="color: var(--accent);">https://github.com/mehmetyarici-crypto</a>
+      </p>
+    </section>
+
+    <section id="tr">
+      <h2>🇹🇷 Türkçe — Gizlilik Politikası</h2>
+
+      <h3>1. Genel Bakış ve %100 Çevrimdışı Mimari</h3>
+      <p>
+        <strong>İhya Vizyon (Ihya Vision / İhya Seyir Defteri)</strong>, İmam Gazâlî'nin <em>İhyâu Ulûmi'd-Dîn</em> mirasını temel alan; mahrem, dingin ve güvenli bir iç gözlem, tefekkür ve nefis muhasebesi uygulaması (<em>Dijital Dergâh</em>) olarak tasarlanmıştır.
+      </p>
+      <ul>
+        <li><strong>%100 Çevrimdışı Çalışma:</strong> Uygulama tamamen çevrimdışı (offline) olarak cihazınızda çalışır. Android <code>INTERNET</code> erişim iznini dahi talep etmez.</li>
+        <li><strong>Sıfır Veri Gönderimi:</strong> Yazdığınız hiçbir muhasebe kaydı, hatıra, niyet, arama sorgusu veya kullanım verisi hiçbir koşulda harici bir sunucuya, bulut servisine veya üçüncü taraflara gönderilmez.</li>
+      </ul>
+
+      <h3>2. Yerel Veri Saklama ve Güvenlik</h3>
+      <p>
+        Uygulama içinde oluşturduğunuz tüm veriler — günlük nefis muhasebesi oturumları, Günlük Hatıralarım (<em>Hâl Defteri</em>), Hızlı Kayıt notları, Farz Takibim çizelgeleri, Sadaka Taşı duaları ve görünüm/dil tercihleri — <strong>yalnızca kendi cihazınızdaki</strong> yerel ve şifreli SQLite/SQLCipher veritabanında tutulur.
+      </p>
+      <ul>
+        <li><strong>Sır Kilidi (PIN Güvenliği):</strong> Mahrem notlarınıza cihaz içindeki erişimi sınırlandırmak için uygulama içinden kişisel Sır Kilidi (PIN) belirleyebilirsiniz.</li>
+        <li><strong>Çift Dilli Çevrimdışı İhya Akıllı Rehber:</strong> Kavramlar ve Akıllı Rehber ekranında sorduğunuz tüm sorular, 40 İhyâ kitabı üzerinde tamamen cihaz içi deterministik algoritmalarla yanıtlanır; hiçbir dış yapay zeka (AI) API'si veya bulut sunucusu kullanılmaz.</li>
+      </ul>
+
+      <h3>3. Kullanılan Cihaz İzinleri</h3>
+      <ul>
+        <li><strong>Mikrofon İzni (<code>android.permission.RECORD_AUDIO</code>):</strong> Yalnızca hatıra yazarken veya kavram ararken mikrofon düğmesine bastığınızda sesli dikte (konuşmayı metne çevirme) amacıyla kullanılır. Uygulama hiçbir ses kaydını dışarıya göndermez.</li>
+        <li><strong>Ekran/Uyku Kilidi (<code>android.permission.WAKE_LOCK</code>):</strong> Yalnızca okuma veya sesli dinleme sırasında ekranın/okumanın kesilmemesi için kullanılır.</li>
+      </ul>
+
+      <h3>4. Veri Saklama Süresi ve Anında Kalıcı Silme</h3>
+      <p>Cihazınızdaki tüm verilerin kontrolü tamamen sizdedir:</p>
+      <ul>
+        <li><strong>Uygulama İçinden Kalıcı Silme:</strong> Dilediğiniz anda <strong>Ayarlar &rarr; Tüm Verilerimi Sil</strong> adımını kullanarak cihazınızdaki tüm muhasebe, hatıra ve tercih kayıtlarını çift onayla anında ve geri döndürülemez biçimde silebilirsiniz.</li>
+        <li><strong>Uygulamayı Kaldırma:</strong> Uygulamayı cihazınızdan kaldırdığınızda yerel uygulama veritabanı da cihazdan silinir.</li>
+      </ul>
+
+      <h3>5. Üçüncü Taraf Hizmetler, Reklam ve Takip Yokluğu</h3>
+      <ul>
+        <li>İhya Vizyon içinde <strong>hiçbir reklam SDK'sı, analitik/telemetri takipçisi, kullanıcı profilleme aracı veya bulut hesap sistemi bulunmamaktadır.</strong></li>
+        <li>Geliştirici tarafından hiçbir kişisel veri toplanmaz, işlenmez, paylaşılmaz veya satılmaz.</li>
+      </ul>
+
+      <h3>6. İletişim Bilgileri</h3>
+      <p>
+        Bu Gizlilik Politikası hakkında sorularınız için geliştirici ile iletişime geçebilirsiniz:<br>
+        <strong>Geliştirici:</strong> Mehmet YARICI<br>
+        <strong>Uygulama:</strong> İhya Vizyon / Ihya Vision (<code>org.ihya.seyirdefteri</code>)<br>
+        <strong>GitHub:</strong> <a href="https://github.com/mehmetyarici-crypto" style="color: var(--accent);">https://github.com/mehmetyarici-crypto</a>
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2024–2026 Mehmet YARICI &middot; Ihya Vision (İhya Vizyon) v2.2.0
+    </footer>
+  </div>
+</body>
+</html>
